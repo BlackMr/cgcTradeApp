@@ -3528,12 +3528,13 @@ tbody.collapse.in {
   display: none;
   float: left;
   min-width: 160px;
-  padding: 5px 0;
+  padding-top:0 !important;
+  padding-bottom: 0 !important;
   margin: 2px 0 0;
   font-size: 14px;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: white;
   -webkit-background-clip: padding-box;
           background-clip: padding-box;
   border: 1px solid #ccc;
@@ -4278,6 +4279,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   float: left;
   height: 50px;
   padding: 15px 15px;
+
   font-size: 18px;
   line-height: 20px;
 }

@@ -22,6 +22,7 @@ body {
 .navbar-brand{
     padding-top: 0;
 }
+
 .container{
     width:70%;
     margin: 0 auto;
@@ -32,6 +33,31 @@ body {
 .navbar-collapse{
    font-family: 'helvetica', sans-serif;/* font-family of website .nav-navbar*/
 }
+
+/* dropdown menu buttons specified background-color*/
+
+.navbar-nav>li>.dropdown-menu {
+
+    background-color: #222 !important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-nav>li>.dropdown-menu>li>a {
+    transition: background-color 2s ;
+    background-color: #222 !important;
+
+}
+.navbar-nav>li>.dropdown-menu>li>a:hover {
+
+    background-color: #f0f0f0 !important;
+
+}
+
+
+
+
+    
 
 
 /* You can change the height of the carousel by changing the height in the class below. It is set to 50% by default, but can be any height! */
@@ -92,6 +118,17 @@ body {
 }
 
 
-footer {
-    margin: 50px 0;
+.footer-distributed{
+    padding:0 0 0 0 ;
+    height:auto;
 }
+.footer-container {
+    width:70%;
+    margin:0 auto;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+.footer-right{
+    float:right !important;
+}
+
