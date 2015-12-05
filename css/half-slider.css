@@ -15,12 +15,18 @@ body {
 
 }
 
+.navbar {
+padding-top: 12px;
+
+
+}
 .navbar-header{
 
   padding-right: 15px;  
 }
 .navbar-brand{
     padding-top: 0;
+
 }
 
 .container{
@@ -51,6 +57,19 @@ body {
 .navbar-nav>li>.dropdown-menu>li>a:hover {
 
     background-color: #f0f0f0 !important;
+
+}
+.navbar-background{
+    background-color: #ffffff;
+    position:absolute;
+    left:0;
+    right:0;
+    bottom:-12px;
+    top:0;
+    height:auto;
+    width :auto;
+    opacity: 1;
+    z-index: -20;
 
 }
 
@@ -110,7 +129,7 @@ body {
 #myCarousel{
     width:70%;
     margin:0 auto;
-    padding-top: 60px; /* Will Deleted after adjustments!!! */ 
+    margin-top: 75px; /* Will Deleted after adjustments!!! */ 
 }
 
 .navbar-nav {
@@ -121,6 +140,8 @@ body {
 .footer-distributed{
     padding:0 0 0 0 ;
     height:auto;
+   
+    
 }
 .footer-container {
     width:70%;
